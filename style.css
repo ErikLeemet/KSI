@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Fruktur&family=Nunito:ital,wght@1,200&display=swap');
+
+:root {
+    --red: #ff002b;
+    --black: #000000;
+    --white: #ffffff;
+    --purple: #3d0399;
+
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    margin: 5rem auto 5rem auto;
+    width: 80vw;
+    border-left: 0.16em solid var(--black);
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-item {
+    padding-left: 3rem;
+}
+
+.nav-item a {
+    padding: 10px 15px 10px 15px;
+
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 1000;
+    font-size: 1.50rem;
+}
+
+.nav-item a:hover {
+    transition: ease-in 100ms;
+    color: red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+.ksi-box {
+    margin: auto;
+    box-shadow: 10px 12px 10px 0px var(--red);
+}
+
+.ksi {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0px 1rem 0px;
+}
+
+.ksi img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.about {
+    font-size: 1.1rem;
+}
+
+.boxing-box {
+    padding-top: 12vh;
+    padding-bottom: 2vh;
+}
+
+.boxing {
+    background-color: #000000;
+}
+
+.boxing p {
+    color: #ffffff;
+    padding-left: 6vw;
+    margin: 2px;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.amature img {
+    width: 100%;
+    display: block;
+    box-shadow: 0px -100px 100px 100px #000000;
+}
+
+.profesional img {
+    width: 100%;
+    display: block;
+    box-shadow: 0px 125px 100px 100px #000000;
+}
+
+.little-box {
+    background-color: #ff002b;
+    clip-path: polygon(5% 0%, 30% 0%, 25% 100%, 1% 100%);
+}
+
+.music-box {
+    position: relative;
+    background-color: #910f2d;
+    z-index: -100;
+}
+
+.music {
+    margin: 4rem;
+    padding: 10vh 0px 1rem 0px;
+}
